@@ -1,11 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="glA3qfK9mWjWR2VQTb70" name="Page-1">
-    <mxGraphModel dx="1290" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ocONnjmKs5eY3bMZPwjG-1" value="&lt;div&gt;USUARIO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="ocONnjmKs5eY3bMZPwjG-1" value="&lt;div&gt;USUARIO&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="230" y="-490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-3" value="ROL" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=Ryvf3V1VznJ.;" vertex="1" parent="1">
+          <mxGeometry x="678" y="-345" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-4" value="AMIGO" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=Zyvf0pbSw8Dj;" vertex="1" parent="1">
+          <mxGeometry x="813" y="-345" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-5" value="TUTOR" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=_yvfnJRPpHBw;" vertex="1" parent="1">
+          <mxGeometry x="954" y="-371" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-6" value="COACH" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=.yvf5v7uCGdI;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="-261" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-7" value="ORGANIZACIONDETIEMPO" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=nzvfFU0ICu2E;" vertex="1" parent="1">
+          <mxGeometry x="837" y="-175" width="258" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-8" value="PLANIFICACION" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=nzvfRhbtnWas;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="-60" width="138" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-9" value="PREPARACIONDEEXAMENES" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=ozvf9c88igXx;" vertex="1" parent="1">
+          <mxGeometry x="93" y="-261" width="273" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-10" value="ENSENANZASDEIDIOMA" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=ozvfAMDZbXcr;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-45" width="243" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-11" value="APOYOEDUCATIVO" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=9;strokeColor=default;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#FFFFFF;strokeWidth=NaN;lucidId=pzvf3C0WakF~;" vertex="1" parent="1">
+          <mxGeometry x="375" y="-180" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-12" value="ASISTENTE" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-13" value="INTERES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-14" value="IDIOMAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-15" value="PERSONALIDAD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-16" value="VOZ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="906" y="-40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-17" value="ROPA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-221" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rTWoYVCPTd-qUIE6REDp-18" value="APARIENCIA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="-200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
