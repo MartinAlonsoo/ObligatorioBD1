@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="bRRyLuodSwNlFJN40b16">
-    <mxGraphModel dx="3288" dy="3024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="2774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="VWiSSEUOja8FaHloWDly-5" value="PK: NroEmp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VWiSSEUOja8FaHloWDly-3" vertex="1">
           <mxGeometry y="30" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-67" value="FK: NroSupervisor --&amp;gt; Empleado(NroEmp)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-3">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-67" value="FK: NroSupervisor --&amp;gt; Empleado(NroEmp)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VWiSSEUOja8FaHloWDly-3" vertex="1">
           <mxGeometry y="60" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VWiSSEUOja8FaHloWDly-8" value="Biblioteca(&lt;u&gt;Direccion&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -80,13 +80,46 @@
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VWiSSEUOja8FaHloWDly-36" value="RNE:" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-680" y="-530" width="440" height="90" as="geometry" />
+          <mxGeometry x="-100" y="-1160" width="990" height="420" as="geometry" />
         </mxCell>
         <mxCell id="VWiSSEUOja8FaHloWDly-37" value="Solo se puede dar de alta un autor si el libro del codigo otorgado existe&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VWiSSEUOja8FaHloWDly-36" vertex="1">
-          <mxGeometry y="30" width="440" height="30" as="geometry" />
+          <mxGeometry y="30" width="990" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VWiSSEUOja8FaHloWDly-38" value="Solo se puede dar de alta un telefono para un alumno si este existe" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VWiSSEUOja8FaHloWDly-36" vertex="1">
-          <mxGeometry y="60" width="440" height="30" as="geometry" />
+          <mxGeometry y="60" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-1" value="Los campos del &quot;Calle&quot;, &quot;NroPuerta&quot; y &quot;Apartamento&quot; en &quot;Empleado&quot; son NO nulleables" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="90" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-2" value="Los valores posibles de &quot;TipoTrabajo&quot; de &quot;Mantenimiento&quot; son: &quot;Pintura&quot;, &quot;Electricidad&quot; y &quot;Jardineria&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="120" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-3" value="El campo &quot;Edad&quot; en &quot;Alumno&quot; solo accepta valores mayores a 17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="150" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-4" value="El campo &quot;TipoDocumento&quot; en &quot;Alumno&quot; solo accepta los valores &quot;DNI&quot;, &quot;Pasaporte&quot; y &quot;Cedula de identidad&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="180" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-5" value="Un Alumno de intercambio solo podrá cursar un dictado si la fecha de este se encuentra entre la fecha de inicio y de finalizacion del intercambio" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="210" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-7" value="El campo &quot;Semestre&quot; de &quot;Dictado&quot; solo puede tomar los valores &quot;S1&quot; y &quot;S2&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="240" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-8" value="El campo &quot;Roles&quot; de &quot;Dictad&quot; solo puede tomar los valores &quot;Profesor teorico&quot; y &quot;Profesor de laboratorio&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="270" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-9" value="El campo &quot;Resultado&quot; de &quot;Cursa&quot; solo accepta valores entre 0 y 100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="300" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-10" value="El campo &quot;Capacidad&quot; de &quot;Salon&quot; solo accepta valores entre 20 y 40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="330" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-11" value="El campo &quot;Codigo&quot; de &quot;Libro&quot; solo accepta valores alfanumericos con el formato &quot;AAA1111&quot; ordenado de la forma que se desee" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="360" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplzYWSyQkVOTD8vrEN9-12" value="Cualquier campo que solicite una fecha deberá ser en el formato DD-MM-YYYY" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VWiSSEUOja8FaHloWDly-36">
+          <mxGeometry y="390" width="990" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VWiSSEUOja8FaHloWDly-42" value="Alumno(&lt;u&gt;NroAlumno&lt;/u&gt;, TipoAlumno, NombreComp, Edad, TipoDoc, NroDoc&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22AutoresAux(%26lt%3Bu%26gt%3BCodigo%2C%20Autor%26lt%3B%2Fu%26gt%3B)%22%20style%3D%22swimlane%3BfontStyle%3D0%3BchildLayout%3DstackLayout%3Bhorizontal%3D1%3BstartSize%3D30%3BhorizontalStack%3D0%3BresizeParent%3D1%3BresizeParentMax%3D0%3BresizeLast%3D0%3Bcollapsible%3D1%3BmarginBottom%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-1190%22%20y%3D%22-270%22%20width%3D%22450%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22PK%3A%20Codigo%2C%20Autor%22%20style%3D%22text%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BspacingLeft%3D4%3BspacingRight%3D4%3Boverflow%3Dhidden%3Bpoints%3D%5B%5B0%2C0.5%5D%2C%5B1%2C0.5%5D%5D%3BportConstraint%3Deastwest%3Brotatable%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20y%3D%2230%22%20width%3D%22450%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22FK%3A%20Codigo%20---%26amp%3Bgt%3B%20Libro%22%20style%3D%22text%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BspacingLeft%3D4%3BspacingRight%3D4%3Boverflow%3Dhidden%3Bpoints%3D%5B%5B0%2C0.5%5D%2C%5B1%2C0.5%5D%5D%3BportConstraint%3Deastwest%3Brotatable%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20y%3D%2260%22%20width%3D%22450%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3EN&lt;/span&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1160" y="-106" width="450" height="90" as="geometry" />
@@ -127,112 +160,112 @@
         <mxCell id="J3rY2Tb_g5RrnogwVI6O-19" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PK: Codigo&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="J3rY2Tb_g5RrnogwVI6O-18" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-1" value="Entidades:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-1" value="Entidades:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1275" y="-420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-33" value="Relaciones:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-33" value="Relaciones:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-170" y="-410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-34" value="Posee(&lt;u&gt;Direccion, Codigo&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-34" value="Posee(&lt;u&gt;Direccion, Codigo&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-340" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-35" value="PK: Direccion, Codigo&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-34">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-35" value="PK: Direccion, Codigo&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-34" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-36" value="FK: Codigo ---&amp;gt; Libro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-34">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-36" value="FK: Codigo ---&amp;gt; Libro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-34" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-37" value="FK: Direccion ---&amp;gt; Biblioteca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-34">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-37" value="FK: Direccion ---&amp;gt; Biblioteca" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-34" vertex="1">
           <mxGeometry y="90" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-38" value="Utiliza(&lt;u&gt;CodigoLib, CodigoCur&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-38" value="Utiliza(&lt;u&gt;CodigoLib, CodigoCur&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-530" y="79" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-39" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;CodigoLib, CodigoCur&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-38">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-39" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;CodigoLib, CodigoCur&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-38" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-40" value="FK: CodigoCur ---&amp;gt; Curso(Codigo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-38">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-40" value="FK: CodigoCur ---&amp;gt; Curso(Codigo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-38" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-41" value="FK: CodigoLib ---&amp;gt; Libro(Codigo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-38">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-41" value="FK: CodigoLib ---&amp;gt; Libro(Codigo)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-38" vertex="1">
           <mxGeometry y="90" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-42" value="Reserva(&lt;u&gt;Codigo, NroAlumno&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-42" value="Reserva(&lt;u&gt;Codigo, NroAlumno&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-200" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-43" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Codigo, NroAlumno&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-42">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-43" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Codigo, NroAlumno&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-42" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-44" value="FK: Codigo ---&amp;gt; Libro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-42">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-44" value="FK: Codigo ---&amp;gt; Libro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-42" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-45" value="FK: NroAlumno ---&amp;gt; Alumno" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-42">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-45" value="FK: NroAlumno ---&amp;gt; Alumno" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-42" vertex="1">
           <mxGeometry y="90" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-46" value="FechaReserva(&lt;u&gt;Codigo, NroAlumno, Fecha&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-46" value="FechaReserva(&lt;u&gt;Codigo, NroAlumno, Fecha&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-70" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-47" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Codigo, NroAlumno, Fecha&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-46">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-47" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Codigo, NroAlumno, Fecha&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-46" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-48" value="FK: Codigo, NroAlumno ---&amp;gt; Reserva" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-46">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-48" value="FK: Codigo, NroAlumno ---&amp;gt; Reserva" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-46" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-49" value="Presta(&lt;u&gt;Codigo, NroAlumno&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-49" value="Presta(&lt;u&gt;Codigo, NroAlumno&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="40" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-50" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Codigo, NroAlumno&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-49">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-50" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Codigo, NroAlumno&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-49" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-51" value="FK: Codigo ---&amp;gt; Libro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-49">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-51" value="FK: Codigo ---&amp;gt; Libro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-49" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-52" value="FK: NroAlumno ---&amp;gt; Alumno" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-49">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-52" value="FK: NroAlumno ---&amp;gt; Alumno" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-49" vertex="1">
           <mxGeometry y="90" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-53" value="FechaPresta(&lt;u&gt;Codigo, NroAlumno, Prestamo, Devolucion&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-53" value="FechaPresta(&lt;u&gt;Codigo, NroAlumno, Prestamo, Devolucion&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-50" y="180" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-54" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Codigo, NroAlumno, Prestamo, Devolucion&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-53">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-54" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;Codigo, NroAlumno, Prestamo, Devolucion&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-53" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-55" value="FK: Codigo, NroAlumno ---&amp;gt; Presta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-53">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-55" value="FK: Codigo, NroAlumno ---&amp;gt; Presta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-53" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-56" value="Dicta(NroEmp, &lt;u&gt;NumDic, &lt;/u&gt;NroSalon)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-56" value="Dicta(NroEmp, &lt;u&gt;NumDic, &lt;/u&gt;NroSalon)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-530" y="-340" width="450" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-57" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PK: NumDic&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-56">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-57" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PK: NumDic&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-56" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-58" value="FK: NumDic---&amp;gt; Dictado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-56">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-58" value="FK: NumDic---&amp;gt; Dictado" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-56" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-59" value="FK: NroEmp ---&amp;gt; Docente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-56">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-59" value="FK: NroEmp ---&amp;gt; Docente" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-56" vertex="1">
           <mxGeometry y="90" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-68" value="FK: NroSalon ---&amp;gt; Salon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-56">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-68" value="FK: NroSalon ---&amp;gt; Salon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-56" vertex="1">
           <mxGeometry y="120" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-60" value="RolDicta(&lt;u&gt;NumDic,Rol&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-60" value="RolDicta(&lt;u&gt;NumDic,Rol&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-530" y="-170" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-61" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;NumDic, Rol&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-60">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-61" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;NumDic, Rol&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-60" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-62" value="FK: NumDic ---&amp;gt; Dicta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-60">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-62" value="FK: NumDic ---&amp;gt; Dicta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-60" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-63" value="Cursa(&lt;u&gt;NumDic, NroAlumno&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-63" value="Cursa(&lt;u&gt;NumDic, NroAlumno&lt;/u&gt;)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-530" y="-70" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-64" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;NumDic, NroAlumno&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-63">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-64" value="PK:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;NumDic, NroAlumno&lt;/span&gt;&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-63" vertex="1">
           <mxGeometry y="30" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-65" value="FK: NumDic ---&amp;gt; Dicta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-63">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-65" value="FK: NumDic ---&amp;gt; Dicta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-63" vertex="1">
           <mxGeometry y="60" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="feCDGHKiopwmScNq-fmQ-66" value="FK: NumAlumno&amp;nbsp;---&amp;gt; Alumno" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="feCDGHKiopwmScNq-fmQ-63">
+        <mxCell id="feCDGHKiopwmScNq-fmQ-66" value="FK: NumAlumno&amp;nbsp;---&amp;gt; Alumno" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="feCDGHKiopwmScNq-fmQ-63" vertex="1">
           <mxGeometry y="90" width="450" height="30" as="geometry" />
         </mxCell>
       </root>
