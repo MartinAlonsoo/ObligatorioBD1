@@ -1,2 +1,3 @@
+Nombres: Marti Alonso(291799) y Juan Carriquiry(310190)
 Ya que no sabemos las preferencias de la persona que vaya a corregir el trabajo tambien dejamos el link al repo de github donde fue realizado el trabajo:
 https://github.com/MartinAlonsoo/ObligatorioBD1.git
